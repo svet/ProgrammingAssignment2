@@ -4,7 +4,7 @@
 ##      mc <- makeCacheMatrix(m)  # create the special matrix
 ##      mc$get()                  # get the matrix
 ##      mi = cacheSolve(mc)       # get the inverse
-##      print(mc$get() %*% mi     # returns the identity matrix
+##      print(mc$get() %*% mi)    # returns the identity matrix
 ##      mi2 = cacheSolve(mc)      # get the inverse "cheaply", 
 ##                                # using already cached value
 
